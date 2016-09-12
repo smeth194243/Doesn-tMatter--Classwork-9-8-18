@@ -34,6 +34,11 @@ public class DoesntController
 		int mathInput = readKeyboardInput.nextInt();
 		System.out.println("You said: " + mathInput);
 		
+		System.out.println("Very Good. What is your GPA?");
+		float gpaInput = readKeyboardInput.nextFloat();
+		System.out.println("You said: " + gpaInput);
+	
+		
 		
 	}
 }
