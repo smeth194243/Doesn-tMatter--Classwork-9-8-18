@@ -47,7 +47,15 @@ public class DoesntController
 		String foodInput = readKeyboardInput.nextLine();
 		System.out.println("You said: " + foodInput);
 		
+		System.out.println("Cool! Do you play any sports?");
+		String sportInput = readKeyboardInput.nextLine();
+		System.out.println("You said: " + sportInput);
 		
+		System.out.println("Nice. Are you bored of answering questions that have no apparent purpose?");
+		String lastInput = readKeyboardInput.nextLine();
+		System.out.println("You said: " + lastInput);
+		
+		System.out.println("Me too. GG.");
 	
 		
 		
