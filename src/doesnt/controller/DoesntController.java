@@ -26,6 +26,12 @@ public class DoesntController
 		String userInput = readKeyboardInput.nextLine();
 		System.out.println("You said: " + userInput);
 		
+		if(userInput.equals("Seth"))
+		{
+			System.out.println("You have the same name as me!");
+		}
+		
+		
 		System.out.println("Shall we play a game?");
 		String gameInput = readKeyboardInput.next();
 		System.out.println("you said: " + gameInput );
