@@ -37,6 +37,17 @@ public class DoesntController
 		System.out.println("Very Good. What is your GPA?");
 		float gpaInput = readKeyboardInput.nextFloat();
 		System.out.println("You said: " + gpaInput);
+		
+		System.out.println("Great Job. What is your favorite class?");
+		String classInput = readKeyboardInput.next();
+		System.out.println("You said: " + classInput);
+		readKeyboardInput.nextLine(); // Used to consume the remainder of the text buffer.
+		
+		System.out.println("Me too! What is your favorite food");
+		String foodInput = readKeyboardInput.nextLine();
+		System.out.println("You said: " + foodInput);
+		
+		
 	
 		
 		
